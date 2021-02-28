@@ -1,0 +1,68 @@
+.diario__main-content {
+	display: flex;
+	height: 100vh;
+}
+.diario__sidebar {
+	background-color: $dark-grey;
+	color: $light;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	width: 450px;
+	height: 100vh;
+}
+.diario__sidebar-navbar {
+	display: flex;
+	justify-content: space-between;
+	h2 {
+		font-weight: lighter;
+	}
+}
+
+.diarios__lista {
+	flex: 1 1 auto;
+	margin-top: 30px;
+	overflow-y: auto;
+}
+
+.diario__item {
+	background-color: $light;
+	border-radius: 4px;
+	color: $dark-grey;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.diario__entry_picture {
+	height: 75px;
+	width: 75px;
+	background-color: $light;
+	background-size: cover;
+}
+
+// item diario
+.diario__contenido_diario {
+	padding: 10px;
+}
+.diario_titulo {
+	font-size: 14px;
+	font-weight: bold;
+	color: $error;
+}
+.diario_descripcion {
+	font-size: 10px;
+}
+.diario__fecha_box {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5px;
+	span {
+		font-size: 12px;
+	}
+}
