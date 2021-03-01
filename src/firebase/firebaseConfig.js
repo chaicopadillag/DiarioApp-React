@@ -9,7 +9,6 @@ var firebaseConfig = {
 	messagingSenderId: process.env.REACT_APP_KEY_MESSAGINGSENDERID,
 	appId: process.env.REACT_APP_KEY_APPID,
 };
-// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 const authFirebase = firebase.auth();
